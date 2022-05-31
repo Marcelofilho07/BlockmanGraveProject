@@ -1,0 +1,52 @@
+{
+  "canBreak": true,
+  "hideCloud": true,
+  "moveDownGravity": 0.15,
+  "scene": [
+    {
+      "class": "VoxelTerrain",
+      "properties": {
+        "__folder_id": "",
+        "id": "26644713697705985",
+        "name": "VoxelTerrain",
+        "uniqueKey": "map001"
+      }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/player1",
+      "properties": {
+        "id": "8652714467460349953",
+        "name": "Player",
+        "needSync": "true",
+        "position": "x:8.6527872085571 y:0.99990081787109 z:46.874580383301",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    }
+  ],
+  "skyBox": [
+    {
+      "texture": [
+        "@asset/Texture/SkyBox/Common2/Sky03_right.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_left.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_top.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_bottom.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_back.png",
+        "@asset/Texture/SkyBox/Common2/Sky03_front.png"
+      ]
+    }
+  ],
+  "skyBoxRotate": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "skyBoxTexPixFmt": "RGBA8",
+  "skyBoxTexSize": 512,
+  "touchPosY": {
+    "touchdownPosY": -30.0,
+    "touchupPosY": 600
+  }
+}
