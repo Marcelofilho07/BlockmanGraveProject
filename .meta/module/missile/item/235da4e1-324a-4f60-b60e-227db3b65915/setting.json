@@ -1,0 +1,107 @@
+{
+  "data": {
+    "hitCount": {
+      "hitEntityCount": 1,
+      "isValid": true
+    },
+    "name": {
+      "value": "missile_235da4e1-324a-4f60-b60e-227db3b65915"
+    },
+    "startEffect": {
+      "effect": {
+        "asset": "asset/Effects/Continuous_mario_mob_ranged_attack.effect"
+      }
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_ExecScript",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Script",
+                  "children": [
+                    {
+                      "action": "3c4087c7-93e9-4641-ae6d-460045bc0886",
+                      "param_name": "target"
+                    },
+                    {
+                      "action": "cbbe2f55-989e-4920-b3d8-6dc9a03f72b9",
+                      "param_name": "instigator"
+                    }
+                  ],
+                  "script_name": "ScriptableNode"
+                }
+              ],
+              "id": {
+                "value": "cf5fd2f0-7c54-4f26-a106-0bd66d3e9693"
+              },
+              "pos": {
+                "x": 728,
+                "y": 262
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "3c4087c7-93e9-4641-ae6d-460045bc0886"
+              },
+              "pos": {
+                "x": 1183,
+                "y": 317
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "cbbe2f55-989e-4920-b3d8-6dc9a03f72b9"
+              },
+              "pos": {
+                "x": 1182,
+                "y": 443
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "cf5fd2f0-7c54-4f26-a106-0bd66d3e9693"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "cc3852bd-fd75-4ba8-b317-4eaeb64bdccc"
+            }
+          },
+          "type": "Trigger_MissileHitEntity"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "05ba7b7cacf7c83cf232040cd4106ed2",
+      "triggers.bts": "f5da479c20f3774af7e597ca0bf4f83a"
+    },
+    "VERSION": "0.20"
+  }
+}

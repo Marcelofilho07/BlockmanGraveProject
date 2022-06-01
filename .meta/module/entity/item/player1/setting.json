@@ -12,7 +12,7 @@
       "enable": true
     },
     "AI_home": {
-      "homeSize": 5.0
+      "homeSize": 5
     },
     "AI_patrol": {
       "patrolMode": "randomPath"
@@ -23,6 +23,7 @@
       "type": "Capsule"
     },
     "canRevive": true,
+    "damage": 5,
     "deadAction": {
       "deathHideTime": {
         "value": 60
@@ -44,7 +45,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "b5a5ac55d874c1f8b13f7fd4794d0ead",
+      "setting.json": "34f0289833651f0876213e83edc44ac7",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

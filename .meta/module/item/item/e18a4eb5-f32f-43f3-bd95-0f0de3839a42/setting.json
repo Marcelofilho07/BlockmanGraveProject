@@ -1,0 +1,29 @@
+{
+  "data": {
+    "icon": {
+      "asset": "asset/Actor/Player/mofazhang.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand",
+        "skill": [
+          "myplugin/2d360a0b-8071-43cc-98a1-9e3fcae1e84a"
+        ]
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Actor/Player/hunter_fazhang.mesh"
+    },
+    "name": {
+      "value": "item_e18a4eb5-f32f-43f3-bd95-0f0de3839a42"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "3494f20c416d84f270f104a2a6588b70",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

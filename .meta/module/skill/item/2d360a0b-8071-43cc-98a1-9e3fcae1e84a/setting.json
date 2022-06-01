@@ -1,0 +1,44 @@
+{
+  "data": {
+    "castAction": "attack2",
+    "cdTime": {
+      "value": 20
+    },
+    "consumeItem": [
+      {
+        "itemType": {
+          "item": "myplugin/fireRune"
+        }
+      }
+    ],
+    "name": {
+      "value": "skill_2d360a0b-8071-43cc-98a1-9e3fcae1e84a"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/235da4e1-324a-4f60-b60e-227db3b65915"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "b5d53adbf5a6f3ada79f1180bace1cab",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

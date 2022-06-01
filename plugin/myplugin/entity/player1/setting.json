@@ -1,6 +1,9 @@
 {
   "_clientScript": [],
   "_serverScript": [],
+  "aiFixSpeedRate": 2,
+  "attackNpc": false,
+  "autoAttack": false,
   "autoMove": false,
   "autoRotateColliderBox": true,
   "avoidCliff": true,
@@ -12,13 +15,15 @@
     "hideSmooth": true,
     "hideTime": 15
   },
-  "bodyTurnMax": 45,
   "canClick": false,
   "canHurtMove": true,
   "canJump": true,
   "canMove": true,
   "canPickOnDie": false,
+  "canTurnHead": true,
   "castRealShadowAtFirstPRV": false,
+  "chaseDistance": 10,
+  "chaseInterval": 10,
   "checkGroundWhenCollisionMargin": true,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
@@ -38,7 +43,7 @@
     "type": "Capsule"
   },
   "collision": false,
-  "damage": 0,
+  "damage": 5,
   "damageViewBobbing": [
     {
       "count": 2,
@@ -86,16 +91,26 @@
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hurtResistantTime": 0,
+  "idleProb": 0,
+  "idleTime": [
+    10,
+    30
+  ],
+  "ignorePlayerSkin": false,
   "isAIGoHomePos": true,
+  "isPlayer": true,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,
   "maxHp": 20,
+  "maxVisualAngle": 360,
   "meetCliffBackRun": true,
+  "modelType": "System",
   "moveAcc": 0.2,
   "moveFactor": 1,
   "moveSpeed": 0.2,
   "name": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d",
   "needCheckTouch": true,
+  "patrolDistance": 5,
   "pushForce": 10,
   "randomPlayDeadActions": [
     "die_front"
@@ -103,7 +118,7 @@
   "reachDistance": 6.5,
   "reviveTime": 40,
   "setFollowWhenCreate": true,
-  "skills": [],
+  "skillInfos": [],
   "stepHeight": 0.6,
   "textHeight": 2.3,
   "touchdownTimeToDie": true,

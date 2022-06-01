@@ -1,0 +1,29 @@
+{
+  "data": {
+    "canAbandon": true,
+    "candrop": true,
+    "icon": {
+      "asset": "asset/Actor/Player/brH0XO.png"
+    },
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemInHand"
+      },
+      "type": "InHand"
+    },
+    "mesh": {
+      "asset": "asset/Actor/Player/hunter_fazhang.mesh"
+    },
+    "name": {
+      "value": "item_fireRune"
+    },
+    "stack_count_max": 9999
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "f46fcbae9501dfd758c3c2aea1aa37e5",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

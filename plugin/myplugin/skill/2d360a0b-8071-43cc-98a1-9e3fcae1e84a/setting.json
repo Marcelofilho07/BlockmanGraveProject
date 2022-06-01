@@ -2,22 +2,22 @@
   "area": [
     [
       0,
-      0
+      -190
     ],
     [
       0,
-      0
+      -200
     ],
     [
       0,
-      0
+      88
     ],
     [
       0,
-      0
+      88
     ]
   ],
-  "area_number": 0,
+  "area_number": 8,
   "backSwingTime": 0,
   "bodyPitchOffset": [
     0
@@ -25,9 +25,15 @@
   "bodyYawOffset": [
     0
   ],
-  "castAction": "",
+  "castAction": "attack2",
   "castActionTime": -1,
-  "cdTime": 0,
+  "cdTime": 20,
+  "consumeItem": [
+    {
+      "consumeName": "myplugin/fireRune",
+      "count": 1
+    }
+  ],
   "consumeVp": 0,
   "customizeSkill": true,
   "draggingEnabled": false,
@@ -36,8 +42,8 @@
   "enableMoveBrkBackS": false,
   "enableMoveBrkPreS": false,
   "frontSight": "",
-  "horizontalAlignment": 1,
-  "icon": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_火球_nor.png",
   "ignoreCastSkillBackS": false,
   "ignoreCastSkillPreS": true,
   "ignoreJumpBackS": false,
@@ -47,7 +53,7 @@
   "isClick": false,
   "isTouch": false,
   "missileCfg": [
-    "myplugin/ced0806c-9862-4d16-a216-8e374248ec2f"
+    "myplugin/235da4e1-324a-4f60-b60e-227db3b65915"
   ],
   "missileCount": 1,
   "preSwingTime": 0,
@@ -73,5 +79,6 @@
   ],
   "sustainAction": "",
   "targetType": "Any",
-  "type": "Missile"
+  "type": "Missile",
+  "verticalAlignment": 2
 }

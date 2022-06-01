@@ -27,6 +27,7 @@
     "z": 0
   },
   "gravity": 0.0,
+  "hitEntityCount": 1,
   "hitEntitysRoles": [
     "hitAllTeam",
     "hitAllEntitys",
@@ -38,11 +39,25 @@
   "lockRotateBodyPitch": 0,
   "lockRotateBodyRoll": 0,
   "lockRotateBodyYaw": 0,
-  "modelMesh": "",
   "moveAcc": 0.0,
   "moveSpeed": 2.0,
   "rotateFree": true,
   "rotateSpeed": 0.0,
+  "startEffect": {
+    "effect": "@asset/Effects/Continuous_mario_mob_ranged_attack.effect",
+    "once": false,
+    "pos": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "scale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "yaw": 0
+  },
   "startWithMoveAcc": true,
   "vanishShow": false,
   "vanishTime": 10

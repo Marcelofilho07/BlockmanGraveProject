@@ -1,0 +1,3 @@
+HIT_ENTITY {
+	ExecScript(instigator = $obj2, script_name = "ScriptableNode", target = $obj1)
+}

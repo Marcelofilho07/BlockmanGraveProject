@@ -1,0 +1,20 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Actor/Player/mofazhang.png",
+  "itemname": "item_e18a4eb5-f32f-43f3-bd95-0f0de3839a42",
+  "mesh": "asset/Actor/Player/hunter_fazhang.mesh",
+  "needSave": false,
+  "skill": [
+    "myplugin/2d360a0b-8071-43cc-98a1-9e3fcae1e84a"
+  ],
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}

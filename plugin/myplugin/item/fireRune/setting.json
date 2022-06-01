@@ -1,0 +1,18 @@
+{
+  "canAbandon": true,
+  "candrop": true,
+  "canEquipPlural": true,
+  "canUse": false,
+  "handItemBoneName": "s_hand_r",
+  "icon": "@asset/Actor/Player/brH0XO.png",
+  "itemname": "item_fireRune",
+  "mesh": "asset/Actor/Player/hunter_fazhang.mesh",
+  "needSave": false,
+  "skill": [],
+  "stack_count_max": 9999,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": false
+}
