@@ -1,0 +1,31 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Armor Monster/Armor Defender·High Order.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "chaseDistance": 20,
+      "enable": true,
+      "skillList": [
+        {
+          "fullName": "myplugin/attackMonster"
+        }
+      ]
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Blue Armor Monster/Armor Defender·High Order.actor"
+    },
+    "name": {
+      "value": "entity_meleeEnemy"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "addde03c00bb2b032380b9df7b2c4126",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

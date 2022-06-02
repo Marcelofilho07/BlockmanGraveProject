@@ -1,0 +1,32 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Blue Archer Monster/Bow Shocker.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "skillList": [
+        {
+          "attackDis": 10,
+          "fullName": "myplugin/4b4f1eb3-c345-497d-b4f5-685fe224b09f"
+        }
+      ]
+    },
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/Blue Archer Monster/Bow Shocker.actor"
+    },
+    "maxHp": 10,
+    "name": {
+      "value": "entity_rangedEnemy"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "144825c62ef270557f0b7482e72e9a9f",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

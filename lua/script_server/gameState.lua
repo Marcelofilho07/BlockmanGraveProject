@@ -4,6 +4,7 @@ local roundStartTime = 40
 local currentCountdownTime = 0
 local playerCount = 0
 
+
 function gameState:startTimer()
   currentCountdownTime = roundStartTime
   World.Timer(20, function()
@@ -11,6 +12,7 @@ function gameState:startTimer()
           if currentCountdownTime ~= 0 then
             return true
           end
+          Lib.emitEvent('SpawnEnemies', map,player)
     end)
 end
 
@@ -22,7 +24,7 @@ local function playerEnter(player)
     playerCount = playerCount + 1
     
     PackageHandlers.sendServerHandler(player, "SetTimer", {time = currentCountdownTime})
-    World.Timer(20, function()
+    World.Timer(10, function()
             if not player or not player:isValid() then --Return if player is invalid
                 return
             end

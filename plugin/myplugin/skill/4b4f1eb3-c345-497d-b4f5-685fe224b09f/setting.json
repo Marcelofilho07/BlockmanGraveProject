@@ -1,0 +1,79 @@
+{
+  "area": [
+    [
+      0,
+      -190
+    ],
+    [
+      0,
+      -200
+    ],
+    [
+      0,
+      88
+    ],
+    [
+      0,
+      88
+    ]
+  ],
+  "area_number": 8,
+  "backSwingTime": 0,
+  "bodyPitchOffset": [
+    0
+  ],
+  "bodyYawOffset": [
+    0
+  ],
+  "castAction": "",
+  "castActionTime": -1,
+  "cdTime": 60,
+  "consumeVp": 0,
+  "customizeSkill": true,
+  "draggingEnabled": false,
+  "enable_pre": false,
+  "enable_rear": false,
+  "enableMoveBrkBackS": false,
+  "enableMoveBrkPreS": false,
+  "frontSight": "",
+  "horizontalAlignment": 2,
+  "icon": "@asset/Texture/Skill/common/icon_火球_nor.png",
+  "ignoreCastSkillBackS": false,
+  "ignoreCastSkillPreS": true,
+  "ignoreJumpBackS": false,
+  "ignoreJumpPreS": false,
+  "ignoreMoveBackS": false,
+  "ignoreMovePreS": false,
+  "isClick": false,
+  "isTouch": true,
+  "missileCfg": [
+    "myplugin/235da4e1-324a-4f60-b60e-227db3b65915"
+  ],
+  "missileCount": 1,
+  "preSwingTime": 0,
+  "sensitivityFactor": 1,
+  "startAction": "attack1",
+  "startActionTime": 0,
+  "startFrom": "foot",
+  "startPitch": [
+    0
+  ],
+  "startPos": [
+    {
+      "x": 0,
+      "y": 1.6,
+      "z": 0
+    }
+  ],
+  "startWait": [
+    0
+  ],
+  "startYaw": [
+    0
+  ],
+  "sustainAction": "",
+  "targetType": "Any",
+  "touchTime": 40,
+  "type": "Missile",
+  "verticalAlignment": 2
+}

@@ -1,0 +1,28 @@
+{
+  "data": {
+    "castAction": "attack1",
+    "cdTime": {
+      "value": 40
+    },
+    "defineActionTime": true,
+    "name": {
+      "value": "skill_attackMonster"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_MeleeAttack",
+        "damage": 5
+      }
+    },
+    "skillReleaseWay": {
+      "isTouch": true
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "220ff309d3afae718b8b448e50150d0a",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

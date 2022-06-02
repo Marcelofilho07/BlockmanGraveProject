@@ -1,0 +1,46 @@
+{
+  "data": {
+    "cdTime": {
+      "value": 60
+    },
+    "name": {
+      "value": "8c5a196e-90e6-4f08-9163-205feb7c8494"
+    },
+    "skill": {
+      "base": {
+        "__OBJ_TYPE": "Skill_Missile",
+        "missile": [
+          {
+            "missileCfg": "myplugin/235da4e1-324a-4f60-b60e-227db3b65915"
+          }
+        ]
+      },
+      "type": "Missile"
+    },
+    "skill_pre": {
+      "time": {
+        "value": 12
+      }
+    },
+    "skillReleaseWay": {
+      "icon": {
+        "asset": "asset/Texture/Skill/common/icon_火球_nor.png"
+      },
+      "iconPos": {
+        "area_number": 8
+      },
+      "isTouch": true,
+      "touchTime": {
+        "value": 40
+      }
+    },
+    "startAction": "attack1"
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "27279634e44a63c33492d1f828984e6e",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.20"
+  }
+}

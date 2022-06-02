@@ -36,6 +36,7 @@
     ],
     "hideHp": false,
     "isPlayer": true,
+    "maxHp": 50,
     "name": {
       "value": "bbfbdc34-da2f-41ab-aaac-3b2e72f5ef6d"
     },
@@ -45,7 +46,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "34f0289833651f0876213e83edc44ac7",
+      "setting.json": "d14cb6c01e452aad5e75d519e768ea38",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

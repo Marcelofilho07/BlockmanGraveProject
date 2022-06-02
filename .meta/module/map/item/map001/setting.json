@@ -39,6 +39,17 @@
           "y": 0.99990081787109,
           "z": 46.874580383301
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/rangedEnemy",
+        "id": "8655453111314038785",
+        "name": "Ranged Enemy",
+        "position": {
+          "x": 32.790000915527,
+          "y": 0.99989998340607,
+          "z": 35.696002960205
+        }
       }
     ],
     "name": {
@@ -50,7 +61,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d279cdf7fdfb09e41795a62a676329b2"
+      "setting.json": "ac24402f2af9beea916af5eb846d4be7"
     },
     "VERSION": "0.20"
   }
