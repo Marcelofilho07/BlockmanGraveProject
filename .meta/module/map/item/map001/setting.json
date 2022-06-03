@@ -50,6 +50,32 @@
           "y": 0.99989998340607,
           "z": 35.696002960205
         }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/meleeEnemy",
+        "id": "8656703851235131393",
+        "name": "Melee Enemy",
+        "position": {
+          "x": 29.976001739502,
+          "y": 0.99990081787109,
+          "z": 37.131999969482
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_DropItem",
+        "config": "myplugin/healthPotion",
+        "id": "8657063271980302337",
+        "position": {
+          "x": 9.0469417572021,
+          "y": 0.99989986419678,
+          "z": 44.283615112305
+        },
+        "size": {
+          "x": 0.99999994039536,
+          "y": 0.99999994039536,
+          "z": 0.99999988079071
+        }
       }
     ],
     "name": {
@@ -61,7 +87,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "ac24402f2af9beea916af5eb846d4be7"
+      "setting.json": "fb0565aa7001abd910872a605bac5da0"
     },
     "VERSION": "0.20"
   }

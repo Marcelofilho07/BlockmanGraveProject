@@ -1,0 +1,16 @@
+{
+  "canAbandon": false,
+  "candrop": false,
+  "canEquipPlural": true,
+  "canUse": false,
+  "icon": "",
+  "itemname": "item_healthPotion",
+  "mesh": "asset/Mesh/Actor_mesh/01_face_boy.mesh",
+  "needSave": false,
+  "stack_count_max": 1,
+  "syncGameData": {
+    "currentCapacity": true,
+    "extCapacity": true
+  },
+  "trap": true
+}

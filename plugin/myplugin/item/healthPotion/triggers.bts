@@ -1,0 +1,3 @@
+ITEM_TRAP {
+	AddEntityHp(entity = $obj1, step = 30)
+}

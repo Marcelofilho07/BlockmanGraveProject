@@ -37,6 +37,33 @@
         "scale": "x:1 y:1 z:1",
         "selectable": "true"
       }
+    },
+    {
+      "class": "Entity",
+      "config": "myplugin/meleeEnemy",
+      "properties": {
+        "id": "8656703851235131393",
+        "name": "Melee Enemy",
+        "needSync": "true",
+        "position": "x:29.976001739502 y:0.99990081787109 z:37.131999969482",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
+    },
+    {
+      "class": "DropItem",
+      "config": "myplugin/healthPotion",
+      "properties": {
+        "fixRotation": false,
+        "id": "8657063271980302337",
+        "name": "DropItem",
+        "needSync": "true",
+        "position": "x:9.0469417572021 y:0.99989986419678 z:44.283615112305",
+        "rotation": "x:0 y:0 z:0",
+        "scale": "x:1 y:1 z:1",
+        "selectable": "true"
+      }
     }
   ],
   "skyBox": [

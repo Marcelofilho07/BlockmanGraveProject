@@ -4,7 +4,6 @@
     "cdTime": {
       "value": 40
     },
-    "defineActionTime": true,
     "name": {
       "value": "skill_attackMonster"
     },
@@ -20,7 +19,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "220ff309d3afae718b8b448e50150d0a",
+      "setting.json": "2fbce3856875dd0f5e771d8add0f4de2",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

@@ -25,7 +25,7 @@
   "bodyYawOffset": [
     0
   ],
-  "castAction": "",
+  "castAction": "attack1",
   "castActionTime": -1,
   "cdTime": 60,
   "consumeVp": 0,
@@ -45,14 +45,14 @@
   "ignoreMoveBackS": false,
   "ignoreMovePreS": false,
   "isClick": false,
-  "isTouch": true,
+  "isTouch": false,
   "missileCfg": [
     "myplugin/235da4e1-324a-4f60-b60e-227db3b65915"
   ],
   "missileCount": 1,
   "preSwingTime": 0,
   "sensitivityFactor": 1,
-  "startAction": "attack1",
+  "startAction": "",
   "startActionTime": 0,
   "startFrom": "foot",
   "startPitch": [
@@ -73,7 +73,6 @@
   ],
   "sustainAction": "",
   "targetType": "Any",
-  "touchTime": 40,
   "type": "Missile",
   "verticalAlignment": 2
 }

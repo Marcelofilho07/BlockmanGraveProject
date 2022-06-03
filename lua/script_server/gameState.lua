@@ -1,6 +1,6 @@
 local gameState = {}
 
-local roundStartTime = 40
+local roundStartTime = 10
 local currentCountdownTime = 0
 local playerCount = 0
 
@@ -12,7 +12,7 @@ function gameState:startTimer()
           if currentCountdownTime ~= 0 then
             return true
           end
-          Lib.emitEvent('SpawnEnemies', map,player)
+          Lib.emitEvent('SpawnEnemies')
     end)
 end
 

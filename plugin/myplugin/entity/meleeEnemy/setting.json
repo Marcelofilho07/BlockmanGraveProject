@@ -1,6 +1,8 @@
 {
   "_clientScript": [],
-  "_serverScript": [],
+  "_serverScript": [
+    "server/meleeEnemy"
+  ],
   "actorGirlName": "asset/Actor/Blue Armor Monster/Armor Defender·High Order.actor",
   "actorName": "asset/Actor/Blue Armor Monster/Armor Defender·High Order.actor",
   "aiFixSpeedRate": 2,
@@ -17,7 +19,7 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
-  "chaseDistance": 20,
+  "chaseDistance": 120,
   "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,
@@ -57,12 +59,10 @@
   "hideHolder": false,
   "hideHp": 1,
   "hideName": false,
-  "homeSize": 20,
   "hpBarColor": 4294967551.0,
   "hpBarHeight": 0.2,
   "hpBarWidth": 1,
   "hurtResistantTime": 0,
-  "isAIGoHomePos": true,
   "isPlayer": false,
   "jumpHeight": 0.6,
   "jumpSpeed": 0.5,

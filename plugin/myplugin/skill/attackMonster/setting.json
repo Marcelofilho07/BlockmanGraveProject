@@ -20,7 +20,7 @@
   "area_number": 0,
   "backSwingTime": 0,
   "castAction": "attack1",
-  "castActionTime": 20,
+  "castActionTime": -1,
   "cdTime": 40,
   "consumeVp": 0,
   "customizeSkill": true,

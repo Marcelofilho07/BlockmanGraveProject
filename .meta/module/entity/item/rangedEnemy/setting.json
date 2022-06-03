@@ -1,10 +1,16 @@
 {
   "data": {
+    "_serverScript": [
+      {
+        "path": "server/rangedEnemy"
+      }
+    ],
     "actorName": {
       "asset": "asset/Actor/Blue Archer Monster/Bow Shocker.actor"
     },
     "AI_attack": {
       "attackMode": "autoAttack",
+      "chaseDistance": 120,
       "enable": true,
       "skillList": [
         {
@@ -12,6 +18,10 @@
           "fullName": "myplugin/4b4f1eb3-c345-497d-b4f5-685fe224b09f"
         }
       ]
+    },
+    "AI_home": {
+      "enable": false,
+      "homeSize": 120
     },
     "enableAI": true,
     "girlactor": {
@@ -24,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "144825c62ef270557f0b7482e72e9a9f",
+      "setting.json": "a4488de3b6a9ecb48ad8bc1ad21d3bbf",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

@@ -1,0 +1,98 @@
+{
+  "data": {
+    "item": {
+      "base": {
+        "__OBJ_TYPE": "ItemUse"
+      },
+      "type": "Use"
+    },
+    "mesh": {
+      "asset": "asset/Mesh/Actor_mesh/01_face_boy.mesh"
+    },
+    "name": {
+      "value": "item_healthPotion"
+    },
+    "trap": true,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "34bbe135-3769-4ac8-b5ea-88bdde05821a"
+              },
+              "pos": {
+                "x": 1251,
+                "y": 250
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_AddEntityHp",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "34bbe135-3769-4ac8-b5ea-88bdde05821a"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 30
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "e1a12b20-20a9-4f41-84c1-9911caf8e3b4"
+              },
+              "pos": {
+                "x": 783,
+                "y": 273
+              }
+            }
+          ],
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "e1a12b20-20a9-4f41-84c1-9911caf8e3b4"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "91fbe74a-0c71-4179-b461-b0991e6fa60d"
+            },
+            "pos": {
+              "x": 374,
+              "y": 246
+            }
+          },
+          "type": "Trigger_ItemTrap"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "afbb6e3ce8586cd91bdb5ce88947c39b",
+      "triggers.bts": "c45ac8ce20994971514ff710d21e4238"
+    },
+    "VERSION": "0.20"
+  }
+}
