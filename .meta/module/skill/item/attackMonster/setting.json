@@ -10,7 +10,8 @@
     "skill": {
       "base": {
         "__OBJ_TYPE": "Skill_MeleeAttack",
-        "damage": 5
+        "damage": 5,
+        "range": 2
       }
     },
     "skillReleaseWay": {
@@ -19,7 +20,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "2fbce3856875dd0f5e771d8add0f4de2",
+      "setting.json": "00b642208bb179bef98ef2bfeff78c09",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

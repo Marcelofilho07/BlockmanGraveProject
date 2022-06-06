@@ -1,0 +1,39 @@
+{
+  "data": {
+    "md5": "a3cc3600b1f02144ccb4b49adc1a163e",
+    "path": "asset/Layout/countdown.layout",
+    "root": {
+      "anchor": {
+        "HorizontalAlignment": "Centre",
+        "VerticalAlignment": "Centre"
+      },
+      "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "Font": "HarmonyOS_Sans_SC_Bold",
+          "Font_size": 20,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "9fa857d6-fc4e-43e4-9308-6f321acdf6fc"
+          },
+          "name": "Txt_Timer",
+          "VertFormatting": "CentreAligned"
+        }
+      ],
+      "id": {
+        "value": "8342914c-81f4-46ec-b79a-94056cff4c0f"
+      }
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "a3cc3600b1f02144ccb4b49adc1a163e",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

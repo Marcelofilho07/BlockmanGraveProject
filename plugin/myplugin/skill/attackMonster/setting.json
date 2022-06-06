@@ -44,7 +44,7 @@
   "isClick": true,
   "isTouch": true,
   "preSwingTime": 0,
-  "range": 4,
+  "range": 2,
   "sensitivityFactor": 1,
   "startAction": "",
   "startActionTime": 0,

@@ -1,5 +1,6 @@
 Trigger.RegisterHandler(this:cfg(), "ENTITY_DIE", function(context)
   local entity = context.obj1
+  local player = context.obj2
   local posFireRune = entity:getFrontPos(2)
   local posHealthPotion = entity:getFrontPos(-2)
   
@@ -15,8 +16,9 @@ Trigger.RegisterHandler(this:cfg(), "ENTITY_DIE", function(context)
       pos = posHealthPotion
   }
   
-  local dropFireRune = DropItemServer.Create(params)
-  local dropHealthPotion = DropItemServer.Create(params)
+  local dropFireRune = DropItemServer.Create(paramsFireRune)
+  local dropHealthPotion = DropItemServer.Create(paramsHealthPotion)
   
   Lib.emitEvent('EnemyDeath')
+  Lib.emitEvent('PLAYER_SCORE', player)
 end)
