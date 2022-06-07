@@ -26,32 +26,6 @@
       }
     },
     {
-      "class": "Entity",
-      "config": "myplugin/rangedEnemy",
-      "properties": {
-        "id": "8655453111314038785",
-        "name": "Ranged Enemy",
-        "needSync": "true",
-        "position": "x:32.790000915527 y:0.99989998340607 z:35.696002960205",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
-      }
-    },
-    {
-      "class": "Entity",
-      "config": "myplugin/meleeEnemy",
-      "properties": {
-        "id": "8656703851235131393",
-        "name": "Melee Enemy",
-        "needSync": "true",
-        "position": "x:29.976001739502 y:0.99990081787109 z:37.131999969482",
-        "rotation": "x:0 y:0 z:0",
-        "scale": "x:1 y:1 z:1",
-        "selectable": "true"
-      }
-    },
-    {
       "class": "DropItem",
       "config": "myplugin/healthPotion",
       "properties": {

@@ -3,6 +3,7 @@ Trigger.RegisterHandler(this:cfg(), "ENTITY_DIE", function(context)
   local player = context.obj2
   local posFireRune = entity:getFrontPos(3)
   local posHealthPotion = entity:getFrontPos(3)
+  local points = 1
   
   local paramsFireRune = {
       item = Item.CreateItem("myplugin/fireRune", 10),
@@ -21,5 +22,5 @@ Trigger.RegisterHandler(this:cfg(), "ENTITY_DIE", function(context)
   
   
   Lib.emitEvent('EnemyDeath')
-  Lib.emitEvent('PLAYER_SCORE', player)
+  Lib.emitEvent('PLAYER_SCORE', player, points)
 end)

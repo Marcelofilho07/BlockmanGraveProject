@@ -1,12 +1,24 @@
 {
   "data": {
-    "md5": "20b98e5b5ab25b94795670e59a8d7746",
+    "md5": "8ae8e898e90f487d296ee5591560bc0a",
     "path": "asset/Layout/leaderboard.layout",
     "root": {
       "anchor": {
         "HorizontalAlignment": "Centre",
         "VerticalAlignment": "Centre"
       },
+      "children": [
+        {
+          "__OBJ_TYPE": "VerticalLayoutContainer",
+          "anchor": {
+            "HorizontalAlignment": "Centre",
+            "VerticalAlignment": "Centre"
+          },
+          "id": {
+            "value": "67ff13ac-a572-4ae6-8e56-4f2651a930ca"
+          }
+        }
+      ],
       "id": {
         "value": "54fdac0c-2d00-4562-9f44-a2ae10d46658"
       },
@@ -22,7 +34,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "20b98e5b5ab25b94795670e59a8d7746",
+      "layout": "8ae8e898e90f487d296ee5591560bc0a",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

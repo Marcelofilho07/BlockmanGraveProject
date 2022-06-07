@@ -14,10 +14,10 @@ end
 
 local function spawnEnemies()
   World.Timer(50, function()
-    if enemiesCounter < 20 then
-      spawnEntity('myplugin/meleeEnemy')
-      spawnEntity('myplugin/rangedEnemy')
-    end
+    --if enemiesCounter < 20 then
+      --spawnEntity('myplugin/meleeEnemy')
+      --spawnEntity('myplugin/rangedEnemy')
+    --end
     return true
   end)
 end

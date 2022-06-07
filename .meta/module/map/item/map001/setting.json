@@ -41,28 +41,6 @@
         }
       },
       {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/rangedEnemy",
-        "id": "8655453111314038785",
-        "name": "Ranged Enemy",
-        "position": {
-          "x": 32.790000915527,
-          "y": 0.99989998340607,
-          "z": 35.696002960205
-        }
-      },
-      {
-        "__OBJ_TYPE": "Instance_Entity",
-        "config": "myplugin/meleeEnemy",
-        "id": "8656703851235131393",
-        "name": "Melee Enemy",
-        "position": {
-          "x": 29.976001739502,
-          "y": 0.99990081787109,
-          "z": 37.131999969482
-        }
-      },
-      {
         "__OBJ_TYPE": "Instance_DropItem",
         "config": "myplugin/healthPotion",
         "id": "8657063271980302337",
@@ -87,7 +65,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fb0565aa7001abd910872a605bac5da0"
+      "setting.json": "3bad47adf82b453d804b510e66b97482"
     },
     "VERSION": "0.20"
   }

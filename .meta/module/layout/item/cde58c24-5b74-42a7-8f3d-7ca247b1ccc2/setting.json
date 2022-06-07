@@ -1,0 +1,70 @@
+{
+  "data": {
+    "md5": "302fe6c67ea033b9974eba65876035d6",
+    "path": "asset/Layout/leaderboardRow.layout",
+    "root": {
+      "children": [
+        {
+          "__OBJ_TYPE": "HorizontalLayoutContainer",
+          "children": [
+            {
+              "__OBJ_TYPE": "StaticText",
+              "Alpha": 0.997,
+              "id": {
+                "value": "f6a32c74-afde-4959-a6d3-5d8dad09628d"
+              },
+              "name": "PlayerName",
+              "Text": ""
+            },
+            {
+              "__OBJ_TYPE": "StaticText",
+              "id": {
+                "value": "f607ff5b-3dcb-435b-823e-6aaff0b2f81b"
+              },
+              "name": "Points",
+              "pos": {
+                "UDim_X": {
+                  "Offect": 256.0
+                }
+              },
+              "Text": ""
+            }
+          ],
+          "id": {
+            "value": "aede1064-3b00-4d6e-8088-058b11ca35a9"
+          },
+          "name": "HorizontalLayoutRow",
+          "size": {
+            "UDim_X": {
+              "Offect": 512.0
+            },
+            "UDim_Y": {
+              "Offect": 128.0
+            }
+          }
+        }
+      ],
+      "Disabled": true,
+      "id": {
+        "value": "6f12a967-509a-4b90-9f81-4139767b2333"
+      },
+      "MousePassThroughEnabled": true,
+      "pos": {
+        "UDim_X": {
+          "Offect": 435.51778149612
+        },
+        "UDim_Y": {
+          "Offect": 225.55554797912
+        }
+      },
+      "Visible": false
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "layout": "302fe6c67ea033b9974eba65876035d6",
+      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
+    },
+    "VERSION": "0.20"
+  }
+}

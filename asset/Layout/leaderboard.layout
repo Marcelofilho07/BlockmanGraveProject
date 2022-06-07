@@ -1,40 +1,84 @@
     <GUILayout version="4">
-        <Window type="DefaultWindow" name="Root">
-            <Property name="Area" value="{{0,0},{0,0},{0,1056.6097100972},{0,537.77777886389}}">
+        <Window name="Root" type="DefaultWindow">
+            <Window name="VerticalLayoutContainer" type="VerticalLayoutContainer">
+                <Property name="Area" value="{{0,0.0},{0,0.0},{0,100.0},{0,100.0}}">
 
-            </Property>
-            <Property name="MaxSize" value="{{999,0},{999,0}}">
+                </Property>
+                <Property name="MaxSize" value="{{999,0},{999,0}}">
 
-            </Property>
-            <Property name="HorizontalAlignment" value="Centre">
+                </Property>
+                <Property name="HorizontalAlignment" value="Centre">
 
-            </Property>
-            <Property name="VerticalAlignment" value="Centre">
+                </Property>
+                <Property name="VerticalAlignment" value="Centre">
 
-            </Property>
-            <Property name="Visible" value="true">
+                </Property>
+                <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
 
-            </Property>
-            <Property name="PivotX" value="0.5">
+                </Property>
+                <Property name="space" value="0">
 
-            </Property>
-            <Property name="PivotY" value="0.5">
+                </Property>
+                <Property name="MousePassThroughEnabled" value="false">
 
-            </Property>
-            <Property name="Alpha" value="1">
+                </Property>
+                <Property name="Visible" value="true">
 
-            </Property>
-            <Property name="MousePassThroughEnabled" value="false">
+                </Property>
+                <Property name="PivotY" value="0.5">
 
-            </Property>
-            <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                </Property>
+                <Property name="dir" value="Top">
 
-            </Property>
-            <Property name="Disabled" value="false">
+                </Property>
+                <Property name="Alpha" value="1">
 
-            </Property>
-            <Property name="ClippedByParent" value="false">
+                </Property>
+                <Property name="PivotX" value="0.5">
 
-            </Property>
+                </Property>
+                <Property name="Disabled" value="false">
+
+                </Property>
+                <Property name="ClippedByParent" value="false">
+
+                </Property>
+            </Window>
+              <Property name="Area" value="{{0,0},{0,0},{0,1056.6097100972},{0,537.77777886389}}">
+
+              </Property>
+              <Property name="MaxSize" value="{{999,0},{999,0}}">
+
+              </Property>
+              <Property name="HorizontalAlignment" value="Centre">
+
+              </Property>
+              <Property name="VerticalAlignment" value="Centre">
+
+              </Property>
+              <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+
+              </Property>
+              <Property name="MousePassThroughEnabled" value="false">
+
+              </Property>
+              <Property name="Visible" value="true">
+
+              </Property>
+              <Property name="PivotY" value="0.5">
+
+              </Property>
+              <Property name="Alpha" value="1">
+
+              </Property>
+              <Property name="PivotX" value="0.5">
+
+              </Property>
+              <Property name="Disabled" value="false">
+
+              </Property>
+              <Property name="ClippedByParent" value="false">
+
+              </Property>
         </Window>
     </GUILayout>
