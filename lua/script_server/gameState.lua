@@ -34,6 +34,12 @@ local function playerEnter(player)
     playerScoreTable[player.name] = 0
     playerCount = playerCount + 1
     
+    for i, _player in pairs(Game.GetAllPlayers() ) do
+      for i, lbPlayer in pairs(Game.GetAllPlayers()) do
+        PackageHandlers.sendServerHandler(_player, "AddPlayerToLeaderboard", {playerName = lbPlayer.name ,points = playerScoreTable[lbPlayer.name]})
+      end
+    end
+    
     PackageHandlers.sendServerHandler(player, "SetTimer", {time = currentCountdownTime})
     World.Timer(10, function()
             PackageHandlers.sendServerHandler(player, "SetTimer", {time = currentCountdownTime}) --Set the time displayed by the client
