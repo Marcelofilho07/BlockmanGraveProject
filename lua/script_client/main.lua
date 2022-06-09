@@ -5,9 +5,20 @@ PackageHandlers.registerClientHandler("SetTimer", function(player, packet)
     wnd:setTimer(packet.time)
 end)
 
-PackageHandlers.registerClientHandler("AddPlayerToLeaderboard", function(player, packet)
+PackageHandlers.registerClientHandler("SetVisibilityLeaderboard", function(player, packet)
+  local leaderboard = UI:openWindow('Layout/leaderboard')
+  print(packet.isVisible)
+  leaderboard:setProperty("Visible", packet.isVisible)
+end)
+
+PackageHandlers.registerClientHandler("UpdatePlayerToLeaderboard", function(player, packet)
     local leaderboard = UI:openWindow('Layout/leaderboard')
-    leaderboard:addPlayer(packet.playerName, packet.points)
+    leaderboard:updatePlayer(packet.playerName, packet.points)
+end)
+
+PackageHandlers.registerClientHandler("RemovePlayerFromLeaderboard", function(player, packet)
+    local leaderboard = UI:openWindow('Layout/leaderboard')
+    leaderboard:removePlayer(packet.playerName)
 end)
 
 World.Timer(3, function()

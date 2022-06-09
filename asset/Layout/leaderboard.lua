@@ -1,16 +1,33 @@
 local rowComponent = UI:openWindow('Layout/leaderboardRow'):child('HorizontalLayoutRow')
+local leaderboardTable = {}
 
-function self:addPlayer(playerName, points)  
-  if not self:child('VerticalLayoutContainer'):child(playerName) then
-    local newRow = rowComponent:clone()
-    newRow:child('PlayerName'):setText(playerName)
-    newRow:child('Points'):setText(points)
-    self:child('VerticalLayoutContainer'):addChild(newRow:getWindow())
-    self:child('VerticalLayoutContainer'):child(newRow:getWindow():getName()):setName(playerName)
-  end
+
+function self:updatePlayer(playerName, points)  
+    leaderboardTable[playerName] = points
+    self:updateLeaderboard()
 end
 
-function self:addPoint(player)
-  self:getChildById(playersScore[player.name]):child('Points'):setText(tonumber(self:getChildById(playersScore[player.name]):child('Points'):getText()) + 1)
+function self:removePlayer(playerName)
+   self:child('VerticalLayoutContainer'):child(playerName):destroy()
+   table.remove(leaderboardTable, playerName)
+   self:updateLeaderboard();
+end
+
+function self:updateLeaderboard()
+  table.sort(leaderboardTable)
+  
+  for k,v in pairs(leaderboardTable) do
+    if self:child('VerticalLayoutContainer'):child(k) then
+      self:child('VerticalLayoutContainer'):child(k):destroy()
+    end
+  end
+  
+  for k,v in pairs(leaderboardTable) do
+    local newRow = rowComponent:clone()
+    newRow:child('PlayerName'):setText(k)
+    newRow:child('Points'):setText(v)
+    self:child('VerticalLayoutContainer'):addChild(newRow:getWindow())
+    self:child('VerticalLayoutContainer'):child(newRow:getWindow():getName()):setName(k)
+  end
 end
   

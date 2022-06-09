@@ -1,83 +1,175 @@
     <GUILayout version="4">
         <Window name="Root" type="DefaultWindow">
             <Window name="VerticalLayoutContainer" type="VerticalLayoutContainer">
-                <Property name="Area" value="{{0,0.0},{0,0.0},{0,100.0},{0,100.0}}">
+                <Property value="{{0,0},{0,0},{0,100},{0,100}}" name="Area">
 
                 </Property>
-                <Property name="MaxSize" value="{{999,0},{999,0}}">
+                <Property value="{{999,0},{999,0}}" name="MaxSize">
 
                 </Property>
-                <Property name="HorizontalAlignment" value="Centre">
+                <Property value="Centre" name="HorizontalAlignment">
 
                 </Property>
-                <Property name="VerticalAlignment" value="Centre">
+                <Property value="Centre" name="VerticalAlignment">
 
                 </Property>
-                <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+                <Property value="0" name="space">
 
                 </Property>
-                <Property name="space" value="0">
+                <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
                 </Property>
-                <Property name="MousePassThroughEnabled" value="false">
+                <Property value="0.5" name="PivotY">
 
                 </Property>
-                <Property name="Visible" value="true">
+                <Property value="Top" name="dir">
 
                 </Property>
-                <Property name="PivotY" value="0.5">
+                <Property value="1" name="Alpha">
 
                 </Property>
-                <Property name="dir" value="Top">
+                <Property value="false" name="MousePassThroughEnabled">
 
                 </Property>
-                <Property name="Alpha" value="1">
+                <Property value="false" name="ClippedByParent">
 
                 </Property>
-                <Property name="PivotX" value="0.5">
+                <Property value="true" name="Visible">
 
                 </Property>
-                <Property name="Disabled" value="false">
+                <Property value="0.5" name="PivotX">
 
                 </Property>
-                <Property name="ClippedByParent" value="false">
+                <Property value="false" name="Disabled">
 
                 </Property>
             </Window>
-              <Property name="Area" value="{{0,0},{0,0},{0,1056.6097100972},{0,537.77777886389}}">
+            <Window name="Image" type="WindowsLook/StaticImage">
+                <Property value="{{0,0.0},{0,0.0},{0,550.17373251915},{0,280.55583369729}}" name="Area">
+
+                </Property>
+                <Property value="{{999,0},{999,0}}" name="MaxSize">
+
+                </Property>
+                <Property value="Left" name="HorizontalAlignment">
+
+                </Property>
+                <Property value="Top" name="VerticalAlignment">
+
+                </Property>
+                <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
+
+                </Property>
+                <Property value="false" name="FrameEnabled">
+
+                </Property>
+                <Property value="2" name="ImageSrcBlend">
+
+                </Property>
+                <Property value="0.376" name="Alpha">
+
+                </Property>
+                <Property value="0" name="ImageBlendOperation">
+
+                </Property>
+                <Property value="false" name="Disabled">
+
+                </Property>
+                <Property value="true" name="Visible">
+
+                </Property>
+                <Property value="0 0 0 0" name="StaticImageCutStretch">
+
+                </Property>
+                <Property value="Stretched" name="vertFormatting">
+
+                </Property>
+                <Property value="4" name="ImageDstBlend">
+
+                </Property>
+                <Property value="0.5" name="PivotY">
+
+                </Property>
+                <Property value="false" name="MousePassThroughEnabled">
+
+                </Property>
+                <Property value="0" name="ImageBlendMode">
+
+                </Property>
+                <Property value="Left_Horizontal" name="FillPosition">
+
+                </Property>
+                <Property value="false" name="AntiClockwise">
+
+                </Property>
+                <Property value="ffffffff" name="FrameColours">
+
+                </Property>
+                <Property value="ffffffff" name="BackgroundColours">
+
+                </Property>
+                <Property value="1" name="FillArea">
+
+                </Property>
+                <Property value="ffff0000" name="ImageColours">
+
+                </Property>
+                <Property value="gameres|asset/Texture/Gui/def_image.png" name="Image">
+
+                </Property>
+                <Property value="false" name="BackgroundEnabled">
+
+                </Property>
+                <Property value="false" name="ClippedByParent">
+
+                </Property>
+                <Property value="Stretched" name="horzFormatting">
+
+                </Property>
+                <Property value="0.5" name="PivotX">
+
+                </Property>
+                <Property value="Horizontal" name="FillType">
+
+                </Property>
+                <Property value="0 0 0 0" name="StaticImageStretch">
+
+                </Property>
+            </Window>
+              <Property value="{{0,-11.110146999437},{0,-127.77778625483},{0,539.71712583289},{0,153.22251136975}}" name="Area">
 
               </Property>
-              <Property name="MaxSize" value="{{999,0},{999,0}}">
+              <Property value="{{999,0},{999,0}}" name="MaxSize">
 
               </Property>
-              <Property name="HorizontalAlignment" value="Centre">
+              <Property value="Centre" name="HorizontalAlignment">
 
               </Property>
-              <Property name="VerticalAlignment" value="Centre">
+              <Property value="Centre" name="VerticalAlignment">
 
               </Property>
-              <Property name="Rotation" value="w:1.0 x:0.0 y:0.0 z:0.0">
+              <Property value="w:1.0 x:0.0 y:0.0 z:0.0" name="Rotation">
 
               </Property>
-              <Property name="MousePassThroughEnabled" value="false">
+              <Property value="0.5" name="PivotY">
 
               </Property>
-              <Property name="Visible" value="true">
+              <Property value="1" name="Alpha">
 
               </Property>
-              <Property name="PivotY" value="0.5">
+              <Property value="false" name="MousePassThroughEnabled">
 
               </Property>
-              <Property name="Alpha" value="1">
+              <Property value="false" name="ClippedByParent">
 
               </Property>
-              <Property name="PivotX" value="0.5">
+              <Property value="true" name="Visible">
 
               </Property>
-              <Property name="Disabled" value="false">
+              <Property value="0.5" name="PivotX">
 
               </Property>
-              <Property name="ClippedByParent" value="false">
+              <Property value="false" name="Disabled">
 
               </Property>
         </Window>

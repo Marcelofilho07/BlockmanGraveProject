@@ -22,7 +22,7 @@ function gameState:startTimer()
     end)
 end
 
-local function playerEnter(player)
+local function OnPlayerEnter(player)
     if not player or not player:isValid() then
       return
     end
@@ -34,11 +34,14 @@ local function playerEnter(player)
     playerScoreTable[player.name] = 0
     playerCount = playerCount + 1
     
+    PackageHandlers.sendServerHandler(player, "SetVisibilityLeaderboard", {isVisible = "false"})
+
     for i, _player in pairs(Game.GetAllPlayers() ) do
       for i, lbPlayer in pairs(Game.GetAllPlayers()) do
-        PackageHandlers.sendServerHandler(_player, "AddPlayerToLeaderboard", {playerName = lbPlayer.name ,points = playerScoreTable[lbPlayer.name]})
+        PackageHandlers.sendServerHandler(_player, "UpdatePlayerToLeaderboard", {playerName = lbPlayer.name ,points = playerScoreTable[lbPlayer.name]})
       end
     end
+    
     
     PackageHandlers.sendServerHandler(player, "SetTimer", {time = currentCountdownTime})
     World.Timer(10, function()
@@ -49,17 +52,32 @@ local function playerEnter(player)
         end)
 end
 
-Lib.subscribeEvent("PLAYER_ENTER", playerEnter)
+Lib.subscribeEvent("PLAYER_ENTER", OnPlayerEnter)
+
+local function OnPlayerLeave(player)
+  print('FUNCTION START')
+  for i, _player in pairs(Game.GetAllPlayers() ) do
+      PackageHandlers.sendServerHandler(_player, "RemovePlayerFromLeaderboard", {playerName = player.name})
+  end
+  print('FUNCTION END')
+end
+
+Lib.subscribeEvent("PLAYER_LEAVE", OnPlayerLeave)
 
 local function OnPlayerScore(player, points)
   playerScoreTable[player.name] = playerScoreTable[player.name] + points
+  for i, _player in pairs(Game.GetAllPlayers() ) do
+    for i, lbPlayer in pairs(Game.GetAllPlayers()) do
+        PackageHandlers.sendServerHandler(_player, "UpdatePlayerToLeaderboard", {playerName = lbPlayer.name ,points = playerScoreTable[lbPlayer.name]})
+      end
+    end
 end
 
 Lib.subscribeEvent("PLAYER_SCORE", OnPlayerScore)
 
 function gameState:ShowLeaderboard()
-  for k,v in pairs(playerScoreTable) do
-    print(k,v)
+  for i, _player in pairs(Game.GetAllPlayers() ) do
+    PackageHandlers.sendServerHandler(_player, "SetVisibilityLeaderboard", {isVisible = "true"})
   end
 end
 

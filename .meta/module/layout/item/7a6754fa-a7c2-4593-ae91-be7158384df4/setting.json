@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "8ae8e898e90f487d296ee5591560bc0a",
+    "md5": "94471c61608a6e473b5c8798c24563a7",
     "path": "asset/Layout/leaderboard.layout",
     "root": {
       "anchor": {
@@ -17,24 +17,51 @@
           "id": {
             "value": "67ff13ac-a572-4ae6-8e56-4f2651a930ca"
           }
+        },
+        {
+          "__OBJ_TYPE": "StaticImage",
+          "Alpha": 0.376,
+          "id": {
+            "value": "819c6773-723f-4e07-839a-a39b6c1dffb0"
+          },
+          "ImageColours": {
+            "b": 0,
+            "g": 0
+          },
+          "size": {
+            "UDim_X": {
+              "Offect": 550.17373251915
+            },
+            "UDim_Y": {
+              "Offect": 280.55583369729
+            }
+          }
         }
       ],
       "id": {
         "value": "54fdac0c-2d00-4562-9f44-a2ae10d46658"
       },
-      "size": {
+      "pos": {
         "UDim_X": {
-          "Offect": 1056.6097100972
+          "Offect": -11.110146999437
         },
         "UDim_Y": {
-          "Offect": 537.77777886389
+          "Offect": -127.77778625483
+        }
+      },
+      "size": {
+        "UDim_X": {
+          "Offect": 550.82727283233
+        },
+        "UDim_Y": {
+          "Offect": 281.00029762457
         }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "8ae8e898e90f487d296ee5591560bc0a",
+      "layout": "94471c61608a6e473b5c8798c24563a7",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

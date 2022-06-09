@@ -7,3 +7,8 @@ Trigger.RegisterHandler(cfg, "ENTITY_ENTER", function(context)
     player:addItem('myplugin/fireRune', 10, nil, 'gift')
     Lib.emitEvent('PLAYER_ENTER', player)
 end)
+
+Trigger.RegisterHandler(cfg, "ENTITY_LEAVE", function(context)
+    local player = context.obj1
+    Lib.emitEvent('PLAYER_LEAVE', player)
+end)
