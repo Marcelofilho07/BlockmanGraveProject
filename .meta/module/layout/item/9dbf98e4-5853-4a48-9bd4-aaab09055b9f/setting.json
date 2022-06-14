@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "a3cc3600b1f02144ccb4b49adc1a163e",
+    "md5": "65e1777808cb0ce1eb0715a36e482c7d",
     "path": "asset/Layout/countdown.layout",
     "root": {
       "anchor": {
@@ -26,12 +26,20 @@
       ],
       "id": {
         "value": "8342914c-81f4-46ec-b79a-94056cff4c0f"
+      },
+      "pos": {
+        "UDim_X": {
+          "Offect": -1.1109804607008
+        },
+        "UDim_Y": {
+          "Offect": -195.55555037657
+        }
       }
     }
   },
   "meta": {
     "EXPORT": {
-      "layout": "a3cc3600b1f02144ccb4b49adc1a163e",
+      "layout": "65e1777808cb0ce1eb0715a36e482c7d",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

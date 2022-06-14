@@ -3,7 +3,7 @@
     "canAbandon": true,
     "candrop": true,
     "icon": {
-      "asset": "asset/Actor/Player/brH0XO.png"
+      "asset": "asset/Actor/Player/sFire_strip5_32x32.png"
     },
     "item": {
       "base": {
@@ -12,7 +12,7 @@
       "type": "InHand"
     },
     "mesh": {
-      "asset": "asset/Actor/Player/hunter_fazhang.mesh"
+      "asset": "asset/Mesh/Red Fire Badge/g2038_badge_03.mesh"
     },
     "name": {
       "value": "item_fireRune"
@@ -21,7 +21,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "f46fcbae9501dfd758c3c2aea1aa37e5",
+      "setting.json": "b61fa1d923d92c3d339e0f0d993e525c",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

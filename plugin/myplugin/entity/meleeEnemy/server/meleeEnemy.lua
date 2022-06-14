@@ -1,8 +1,8 @@
 Trigger.RegisterHandler(this:cfg(), "ENTITY_DIE", function(context)
   local entity = context.obj1
   local player = context.obj2
-  local posFireRune = entity:getFrontPos(3)
-  local posHealthPotion = entity:getFrontPos(3)
+  local posFireRune = entity:getFrontPos(-2)
+  local posHealthPotion = entity:getFrontPos(2)
   local points = 1
   
   local paramsFireRune = {

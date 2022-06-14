@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "94471c61608a6e473b5c8798c24563a7",
+    "md5": "f63face9d653e15f20f7ac3816ba06e3",
     "path": "asset/Layout/leaderboard.layout",
     "root": {
       "anchor": {
@@ -8,6 +8,23 @@
         "VerticalAlignment": "Centre"
       },
       "children": [
+        {
+          "__OBJ_TYPE": "StaticText",
+          "anchor": {
+            "HorizontalAlignment": "Centre"
+          },
+          "Font_size": 16,
+          "HorzFormatting": "CentreAligned",
+          "id": {
+            "value": "2aa1eab6-baa4-466d-b8f6-8495b747a96d"
+          },
+          "name": "GameOverBanner",
+          "Text": "GAME OVER!",
+          "TextColours": {
+            "g": 238,
+            "r": 255
+          }
+        },
         {
           "__OBJ_TYPE": "VerticalLayoutContainer",
           "anchor": {
@@ -20,9 +37,12 @@
         },
         {
           "__OBJ_TYPE": "StaticImage",
-          "Alpha": 0.376,
+          "Alpha": 0.226,
           "id": {
             "value": "819c6773-723f-4e07-839a-a39b6c1dffb0"
+          },
+          "Image": {
+            "asset": "asset/Texture/Gui/checkbox_unselectable.png"
           },
           "ImageColours": {
             "b": 0,
@@ -33,7 +53,7 @@
               "Offect": 550.17373251915
             },
             "UDim_Y": {
-              "Offect": 280.55583369729
+              "Offect": 506.55599892139
             }
           }
         }
@@ -61,7 +81,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "94471c61608a6e473b5c8798c24563a7",
+      "layout": "f63face9d653e15f20f7ac3816ba06e3",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

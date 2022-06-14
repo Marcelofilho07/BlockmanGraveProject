@@ -19,7 +19,7 @@
   "canPickOnDie": false,
   "canTurnHead": false,
   "castRealShadowAtFirstPRV": false,
-  "chaseDistance": 120,
+  "chaseDistance": 1,
   "chaseInterval": 10,
   "checkPartTouchEvent": true,
   "clickDistance": 4,

@@ -1,6 +1,6 @@
 {
   "data": {
-    "md5": "1588f1bcdad00559e5a51f80061f675f",
+    "md5": "4131da85d90c4c3183dddfee15870abc",
     "path": "asset/Layout/leaderboardRow.layout",
     "root": {
       "children": [
@@ -10,6 +10,7 @@
             {
               "__OBJ_TYPE": "StaticText",
               "Alpha": 0.997,
+              "Font_size": 15,
               "id": {
                 "value": "f6a32c74-afde-4959-a6d3-5d8dad09628d"
               },
@@ -26,6 +27,7 @@
             },
             {
               "__OBJ_TYPE": "StaticText",
+              "Font_size": 15,
               "HorzFormatting": "RightAligned",
               "id": {
                 "value": "f607ff5b-3dcb-435b-823e-6aaff0b2f81b"
@@ -33,7 +35,7 @@
               "name": "Points",
               "pos": {
                 "UDim_X": {
-                  "Offect": 195.0
+                  "Offect": 195
                 }
               },
               "size": {
@@ -53,10 +55,10 @@
           "name": "HorizontalLayoutRow",
           "size": {
             "UDim_X": {
-              "Offect": 401.0
+              "Offect": 401
             },
             "UDim_Y": {
-              "Offect": 76.0
+              "Offect": 76
             }
           }
         }
@@ -79,7 +81,7 @@
   },
   "meta": {
     "EXPORT": {
-      "layout": "1588f1bcdad00559e5a51f80061f675f",
+      "layout": "4131da85d90c4c3183dddfee15870abc",
       "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
     },
     "VERSION": "0.20"

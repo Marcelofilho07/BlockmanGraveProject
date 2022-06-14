@@ -12,3 +12,10 @@ Trigger.RegisterHandler(cfg, "ENTITY_LEAVE", function(context)
     local player = context.obj1
     Lib.emitEvent('PLAYER_LEAVE', player)
 end)
+
+Trigger.RegisterHandler(cfg, "ENTITY_DIE", function(context)
+    local player = context.obj1
+    if  Game.GetSurvivePlayersCount() == 0 then
+      Lib.emitEvent('PLAYER_DIE', player)
+    end
+end)

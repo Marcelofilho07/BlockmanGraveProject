@@ -7,7 +7,7 @@
       "type": "Use"
     },
     "mesh": {
-      "asset": "asset/Mesh/Actor_mesh/01_face_boy.mesh"
+      "asset": "asset/Mesh/Pink Green Cupcakes/g2040_candy_icecream_04.mesh"
     },
     "name": {
       "value": "item_healthPotion"
@@ -90,7 +90,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "afbb6e3ce8586cd91bdb5ce88947c39b",
+      "setting.json": "db95e4741a0e51678ae87d96274aa0f2",
       "triggers.bts": "c45ac8ce20994971514ff710d21e4238"
     },
     "VERSION": "0.20"

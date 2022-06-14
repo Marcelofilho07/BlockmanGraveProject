@@ -92,9 +92,9 @@
   "ignoreEmptyStartPos": false,
   "initPos": {
     "map": "map001",
-    "x": 7,
-    "y": 1.04,
-    "z": 37
+    "x": 0,
+    "y": 1,
+    "z": 0
   },
   "isTimeStopped": true,
   "jumpControlConfig": {
@@ -146,7 +146,7 @@
   },
   "personalShop": false,
   "playerCfg": "myplugin/player1",
-  "playTime": -1,
+  "playTime": 7000,
   "qualityLevelData": {
     "maxLevel": [
       2,
@@ -229,9 +229,9 @@
   "startPos": [
     {
       "map": "map001",
-      "x": 7,
-      "y": 1.04,
-      "z": 37
+      "x": 0,
+      "y": 1,
+      "z": 0
     }
   ],
   "team": [],

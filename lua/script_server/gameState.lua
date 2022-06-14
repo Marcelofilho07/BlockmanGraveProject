@@ -4,7 +4,7 @@ local RedisHandler = require "redishandler"
 local rankName = World.CurWorld.GameName..'Test'
 
 local roundStartTime = 10
-local roundDuration = 5
+local roundDuration = 180
 local currentCountdownTime = 0
 local currentRoundTime = 0
 local playerCount = 0
@@ -75,11 +75,13 @@ end
 
 Lib.subscribeEvent("PLAYER_SCORE", OnPlayerScore)
 
-function gameState:ShowLeaderboard()
+local function ShowLeaderboard()
   for i, _player in pairs(Game.GetAllPlayers() ) do
     PackageHandlers.sendServerHandler(_player, "SetVisibilityLeaderboard", {isVisible = "true"})
   end
 end
+
+Lib.subscribeEvent("PLAYER_DIE", ShowLeaderboard)
 
 function gameState:BeginRoundTimer()
   currentRoundTime = roundDuration

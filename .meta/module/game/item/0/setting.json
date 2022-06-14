@@ -9,9 +9,7 @@
     "initPos": {
       "map": "map001",
       "pos": {
-        "x": 7,
-        "y": 1.04,
-        "z": 37
+        "y": 1
       }
     },
     "nowTime": {
@@ -22,22 +20,24 @@
       "max": 6,
       "min": 1
     },
+    "playTime": {
+      "value": 7000
+    },
     "startPos": {
       "map": "map001",
       "pos": {
-        "x": 7,
-        "y": 1.04,
-        "z": 37
+        "x": 0,
+        "y": 1,
+        "z": 0
       }
     },
     "team": {
       "teammateHurt": true
-    },
-    "unlimitedPlayTime": true
+    }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "6d92d477b0f539e6ec5768a2cda529d2",
+      "setting.json": "f46cf8dd109f9d7ecbf24c9133b98f2b",
       "shop.csv": "393e9a440b900b5690986ec2b0e57be5",
       "triggers.bts": "",
       "triggers_client.bts": ""

@@ -22,7 +22,6 @@
       "radius": 0.43,
       "type": "Capsule"
     },
-    "canRevive": true,
     "damage": 5,
     "deadAction": {
       "deathHideTime": {
@@ -46,7 +45,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d14cb6c01e452aad5e75d519e768ea38",
+      "setting.json": "bc380eef1289e70c2c41194766655a3f",
       "triggers.bts": ""
     },
     "VERSION": "0.20"

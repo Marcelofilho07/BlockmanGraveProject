@@ -5,7 +5,7 @@
   "canUse": false,
   "icon": "",
   "itemname": "item_healthPotion",
-  "mesh": "asset/Mesh/Actor_mesh/01_face_boy.mesh",
+  "mesh": "asset/Mesh/Pink Green Cupcakes/g2040_candy_icecream_04.mesh",
   "needSave": false,
   "stack_count_max": 1,
   "syncGameData": {

@@ -10,7 +10,7 @@
     },
     "AI_attack": {
       "attackMode": "autoAttack",
-      "chaseDistance": 120,
+      "chaseDistance": 1,
       "enable": true,
       "skillList": [
         {
@@ -31,7 +31,7 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "449b359747ec3d5e15869d22cdb2d612",
+      "setting.json": "1a247a1e0a78da2139b55bf0210f004e",
       "triggers.bts": ""
     },
     "VERSION": "0.20"
