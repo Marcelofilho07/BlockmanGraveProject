@@ -2,25 +2,7 @@
   "data": {
     "box": {
       "base": {
-        "__OBJ_TYPE": "SkyBoxStatic",
-        "back": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_back.png"
-        },
-        "bottom": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_bottom.png"
-        },
-        "front": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_front.png"
-        },
-        "left": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_left.png"
-        },
-        "right": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_right.png"
-        },
-        "top": {
-          "selector": "editor/terrain/asset/Texture/SkyBox/Common2/Sky03_top.png"
-        }
+        "__OBJ_TYPE": "SkyBoxStatic"
       }
     },
     "instances": [
@@ -30,16 +12,20 @@
         "uniqueKey": "map001"
       },
       {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8686564333348880385",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
         "__OBJ_TYPE": "Instance_MeshPart",
         "btsKey": "6587e07d-306a-494f-a212-f1fe1522ad51",
         "density": 2.2,
         "friction": 0.37,
         "id": "8671234034640322561",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 6.478000164032,
-          "y": 7.392810344696,
-          "z": -26.607000350952
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -58,8 +44,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -67,11 +53,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8671234200461606913",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -9.0710000991821,
-          "y": 7.3928093910217,
-          "z": -25.677001953125
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -90,8 +73,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -99,11 +82,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8671237224229863425",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -3.1099998950958,
-          "y": 7.3928084373474,
-          "z": 24.86600112915
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -122,8 +102,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -131,11 +111,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8671237224233140225",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 11.734001159668,
-          "y": 7.3928093910217,
-          "z": 25.040000915527
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -154,8 +131,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -163,11 +140,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672436738710388737",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -17.721998214722,
-          "y": 7.3928079605103,
-          "z": 25.094360351562
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -186,8 +160,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -195,11 +169,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672436926948491265",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -25.288900375366,
-          "y": 7.3928079605103,
-          "z": 12.725981712341
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -221,8 +192,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -230,11 +201,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672437388023693313",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -27.197708129883,
-          "y": 7.3928098678589,
-          "z": -2.007563829422
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -249,15 +217,15 @@
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90.0
+          "y": 90
         },
         "size": {
           "x": 15.572484016418,
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -265,11 +233,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672437619235143681",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -28.739404678345,
-          "y": 7.3928089141846,
-          "z": -16.930814743042
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -284,15 +249,15 @@
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90.0
+          "y": 90
         },
         "size": {
           "x": 15.572484016418,
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -300,11 +265,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672437803509071873",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": -23.347965240479,
-          "y": 7.3928098678589,
-          "z": -24.921243667603
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -323,8 +285,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -332,11 +294,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672438172275556353",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 21.936893463135,
-          "y": 7.2889070510864,
-          "z": -26.560934066772
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -355,8 +314,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -364,11 +323,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672438547019415553",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 28.906188964844,
-          "y": 7.3928108215332,
-          "z": -0.68769252300262
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -383,15 +339,15 @@
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90.0
+          "y": 90
         },
         "size": {
           "x": 15.572484016418,
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -399,11 +355,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672438547022757889",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 30.815002441406,
-          "y": 7.3928089141846,
-          "z": 14.045848846436
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -418,15 +371,15 @@
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90.0
+          "y": 90
         },
         "size": {
           "x": 15.572484016418,
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -434,11 +387,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672438547026427905",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 27.364501953125,
-          "y": 7.3928098678589,
-          "z": -15.610948562622
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -453,15 +403,15 @@
         },
         "restitution": 0.3,
         "rotation": {
-          "y": 90.0
+          "y": 90
         },
         "size": {
           "x": 15.572484016418,
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       },
       {
         "__OBJ_TYPE": "Instance_MeshPart",
@@ -469,11 +419,8 @@
         "density": 2.2,
         "friction": 0.37,
         "id": "8672438653689397249",
-        "mass": 959.65681152344,
-        "massCenter": {
-          "x": 26.366622924805,
-          "y": 7.3928093910217,
-          "z": 24.919960021973
+        "material": {
+          "discardAlpha": 1
         },
         "mesh": "asset/Mesh/Double Storey Old-Fashioned Big House/g2044_7080_house06.mesh",
         "mesh_selector": {
@@ -492,8 +439,8 @@
           "y": 12.785818099976,
           "z": 12.332117080688
         },
-        "useAnchor": true,
-        "volume": 436.20764160156
+        "staticBatchNo": "1",
+        "useAnchor": true
       }
     ],
     "name": {
@@ -505,8 +452,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "fdf0393cfe70e8d11e6ec7e951eb37be"
+      "DataSet": [],
+      "setting.json": "f71644f112cb1cfe334252bd5d3a70e6"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

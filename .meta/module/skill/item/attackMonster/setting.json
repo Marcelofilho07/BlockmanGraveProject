@@ -15,14 +15,15 @@
       }
     },
     "skillReleaseWay": {
+      "isClick": true,
       "isTouch": true
     }
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "00b642208bb179bef98ef2bfeff78c09",
+      "setting.json": "b5f5fe805d9efe8b27b3c29ceebcd971",
       "triggers.bts": ""
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

@@ -67,7 +67,6 @@
       "id": {
         "value": "6f12a967-509a-4b90-9f81-4139767b2333"
       },
-      "MousePassThroughEnabled": true,
       "pos": {
         "UDim_X": {
           "Offect": 435.51778149612
@@ -76,14 +75,12 @@
           "Offect": 225.55554797912
         }
       },
-      "Visible": false
+      "Visible": false,
+      "WindowTouchThroughMode": "MousePassThroughOpen"
     }
   },
   "meta": {
-    "EXPORT": {
-      "layout": "4131da85d90c4c3183dddfee15870abc",
-      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
-    },
-    "VERSION": "0.20"
+    "EXPORT": [],
+    "VERSION": "0.21"
   }
 }

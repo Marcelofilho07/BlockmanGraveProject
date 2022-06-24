@@ -64,6 +64,11 @@
               }
             }
           ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "6e44cd2b-57ca-4258-89e7-0062edc64291"
+            }
+          },
           "root": {
             "components": [
               {
@@ -93,6 +98,6 @@
       "setting.json": "db95e4741a0e51678ae87d96274aa0f2",
       "triggers.bts": "c45ac8ce20994971514ff710d21e4238"
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }

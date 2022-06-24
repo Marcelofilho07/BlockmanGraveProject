@@ -38,10 +38,7 @@
     }
   },
   "meta": {
-    "EXPORT": {
-      "layout": "65e1777808cb0ce1eb0715a36e482c7d",
-      "triggers.bts": "d1fd7037f4941cd1b8cbfb94bb926990"
-    },
-    "VERSION": "0.20"
+    "EXPORT": [],
+    "VERSION": "0.21"
   }
 }

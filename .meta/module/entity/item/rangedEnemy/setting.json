@@ -23,6 +23,9 @@
       "enable": false,
       "homeSize": 120
     },
+    "AI_patrol": {
+      "patrolMode": "randomPath"
+    },
     "enableAI": true,
     "girlactor": {
       "asset": "asset/Actor/Blue Archer Monster/Bow Shocker.actor"
@@ -34,9 +37,9 @@
   },
   "meta": {
     "EXPORT": {
-      "setting.json": "d89da01a6041b74c2bbf8e5c4686b45d",
+      "setting.json": "e533dd8afb43a43ad6b8b529177395ee",
       "triggers.bts": ""
     },
-    "VERSION": "0.20"
+    "VERSION": "0.21"
   }
 }
